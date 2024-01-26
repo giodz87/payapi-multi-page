@@ -5,10 +5,10 @@ export default function Header() {
   return (
     <header
       className="w-full flex items-center justify-center relative
-      bg-[#d2dbe3]
+     
     "
     >
-      <div className=" w-[375px] flex flex-row items-center justify-between pt-10  px-5 ">
+      <div className=" w-[375px] flex flex-row items-center justify-between py-6  px-5 ">
         <img src="./assets/shared/desktop/logo.svg" alt="" />
         <img
           className=" z-50"

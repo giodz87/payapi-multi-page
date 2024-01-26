@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <article className=" flex flex-col items-center justify-between px-5 text-center gap-10 py-12">
+    <article className=" flex flex-col items-center justify-between px-5 text-center gap-10 py-12 w-[375px]">
       <h1 className="text-[#36536B]  text-[32px] font-normal leading-9 tracking-[-0.246px]">
         We empower innovators by delivering access to the financial system
       </h1>

@@ -12,7 +12,7 @@ export default function Home() {
   //     "./assets/shared/desktop/oracle.svg",
   //   ];  vikitxo damapaze
   return (
-    <article className="flex flex-col items-center justify-center overflow-hidden relative w-[375px] gap-20 pb-20">
+    <article className="flex flex-col items-center justify-center overflow-hidden relative w-[375px] gap-20 pb-20 ">
       <section>
         <div className=" absolute  top-[-270px] overflow-hidden    ">
           {/* <img
