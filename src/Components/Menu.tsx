@@ -1,4 +1,3 @@
-import React from "react";
 import useUserContext from "../context";
 
 export default function Menu() {
@@ -17,7 +16,7 @@ export default function Menu() {
             {button.map((item: string) => (
               <div
                 key={item}
-                className=" hover:w-[252px] hover:h-12 hover:bg-[#BA4270] flex items-center justify-center hover:rounded-3xl cursor-pointer"
+                className=" hover:w-[252px] hover:h-12 hover:bg-[#BA4270] flex items-center justify-center hover:rounded-3xl cursor-pointer hover:opacity-0]"
               >
                 {item}
               </div>
