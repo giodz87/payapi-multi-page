@@ -1,11 +1,10 @@
+import { Link } from "react-router-dom";
 import AccountInfo from "../Components/Home-components/AccountInfo";
 import EasyToImplement from "../Components/Home-components/EasyToImplement";
-import ReadyToStart from "../Components/Home-components/ReadyToStart";
+
 import WorkWith from "../Components/Home-components/WorkWith";
-import useUserContext from "../context";
 
 export default function Home() {
-  const context = useUserContext;
   //   const img = [
   //     "./assets/shared/desktop/tesla.svg",
   //     "./assets/shared/desktop/microsoft.svg",
@@ -13,7 +12,7 @@ export default function Home() {
   //     "./assets/shared/desktop/oracle.svg",
   //   ];  vikitxo damapaze
   return (
-    <article className="flex flex-col items-center justify-center overflow-hidden relative w-[375px] gap-20 ">
+    <article className="flex flex-col items-center justify-center overflow-hidden relative w-[375px] gap-20 pb-20">
       <section>
         <div className=" absolute  top-[-270px] overflow-hidden    ">
           {/* <img
@@ -50,7 +49,6 @@ export default function Home() {
       <WorkWith />
       <EasyToImplement />
       <AccountInfo />
-      <ReadyToStart />
     </article>
   );
 }

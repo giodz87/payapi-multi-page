@@ -7,6 +7,8 @@ import Menu from "./Components/Menu";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Footer from "./Components/Footer";
+import ReadyToStart from "./Components/Home-components/ReadyToStart";
 export type MyContextProps = {
   menu: boolean;
   setMenu: (value: boolean) => void;
@@ -39,12 +41,14 @@ function App() {
         <Header />
         {menu ? <Menu /> : ""}
         <Routes>
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
-          <Route path="" element={<Pricing />} />
-          <Route path="" element={<About />} />
-          <Route path="" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <ReadyToStart />
+      <Footer />
     </MyContext.Provider>
   );
 }
