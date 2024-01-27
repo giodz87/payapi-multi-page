@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function WorkWith() {
   return (
     <article className="flex flex-col items-center justify-between gap-11 w-full px-5 bg-[#48adff] pt-20">
