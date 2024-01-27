@@ -6,10 +6,10 @@ export default function EasyToImplement() {
         alt=""
       />
       <div className="flex flex-col items-center justify-center gap-6">
-        <h2 className="text-[36px] font-normal leading-9 tracking-[-0.227px] text-center text-[#36536B]">
+        <h2 className="text-[36px] font-normal leading-9 tracking-[-0.227px] text-center text-[#36536B] md:text-[48px]">
           Easy to implement
         </h2>
-        <p className="text-[15px] font-normal leading-7 text-[#6C8294] text-center">
+        <p className="text-[15px] font-normal leading-7 text-[#6C8294] text-center md:w-[573px]">
           Our API comes with just a few lines of code. You’ll be up and running
           in no time. We built our documentation page to integrate payments
           functionality with ease.
@@ -17,10 +17,10 @@ export default function EasyToImplement() {
       </div>
       <img src="./assets/home/desktop/illustration-simple-ui.svg" alt="" />
       <div className="flex flex-col items-center justify-center gap-6">
-        <h2 className="text-[36px] font-normal leading-9 tracking-[-0.227px] text-center text-[#36536B]">
+        <h2 className="text-[36px] font-normal leading-9 tracking-[-0.227px] text-center text-[#36536B] md:text-[48px]">
           Simple UI & UX
         </h2>
-        <p className="text-[15px] font-normal leading-7 text-[#6C8294]  text-center">
+        <p className="text-[15px] font-normal leading-7 text-[#6C8294]  text-center md:w-[573px]">
           Our pre-built form is easy to integrate in your app or website’s
           checkout flow and designed to optimize conversion.{" "}
         </p>

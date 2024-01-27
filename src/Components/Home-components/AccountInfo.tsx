@@ -1,6 +1,6 @@
 export default function AccountInfo() {
   return (
-    <article className="flex flex-col items-center justify-between gap-12 px-5">
+    <article className="flex flex-col items-center justify-between gap-12 px-5 md:flex-row">
       {" "}
       <section className="flex flex-col items-center justify-between gap-4">
         {" "}
