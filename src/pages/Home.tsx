@@ -1,16 +1,9 @@
-import { Link } from "react-router-dom";
 import AccountInfo from "../Components/Home-components/AccountInfo";
 import EasyToImplement from "../Components/Home-components/EasyToImplement";
 
 import WorkWith from "../Components/Home-components/WorkWith";
 
 export default function Home() {
-  //   const img = [
-  //     "./assets/shared/desktop/tesla.svg",
-  //     "./assets/shared/desktop/microsoft.svg",
-  //     "./assets/shared/desktop/hewlett-packard.svg",
-  //     "./assets/shared/desktop/oracle.svg",
-  //   ];  vikitxo damapaze
   return (
     <article className="flex flex-col items-center justify-center overflow-hidden relative w-[375px] md:w-[768px] xl:w-[1280px]  gap-20 pb-20 ">
       <section>
