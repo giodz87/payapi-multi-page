@@ -18,7 +18,7 @@ export default function Header() {
             onClick={() => context.setMenu(!context.menu)}
             src={` ${
               context.menu
-                ? " public/assets/shared/mobile/close.svg"
+                ? " ./assets/shared/mobile/close.svg"
                 : "./assets/shared/mobile/menu.svg"
             }  `}
             alt=""
