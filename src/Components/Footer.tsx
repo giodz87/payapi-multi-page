@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-[#1B262F] w-full h-full flex flex-col items-center justify-center ">
@@ -5,10 +7,10 @@ export default function Footer() {
         <div className="flex flex-col gap-10 md:flex-row ">
           <img src="public/assets/shared/desktop/footerLogo.svg" alt="" />
           <div className=" text-[15px] font-bold text-[#FBFCFE] opacity-70 flex flex-col items-center justify-between gap-8 md:flex-row">
-            <div>Pricing</div>
+            <Link to={"/pricing"}>Pricing</Link>
 
-            <p>About</p>
-            <p>Contact</p>
+            <Link to={"/about"}>About</Link>
+            <Link to={"/contact"}>Contact</Link>
           </div>
         </div>
         <div className="flex flex-row items-center justify-between gap-7">

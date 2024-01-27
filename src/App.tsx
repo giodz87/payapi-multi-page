@@ -15,25 +15,6 @@ export type MyContextProps = {
 };
 function App() {
   const [menu, setMenu] = useState<boolean>(false);
-  const [info, setInfo] = useState<[]>([]);
-  const Api = async () => {
-    try {
-      const response = await fetch("");
-      const data = await response.json();
-
-      if (response.ok) {
-        setInfo(data);
-      } else {
-        setInfo([]);
-      }
-    } catch (err) {
-      console.log("error");
-    }
-  };
-
-  useEffect(() => {
-    Api();
-  }, []);
 
   return (
     <MyContext.Provider value={{ menu, setMenu }}>
@@ -46,9 +27,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
         </Routes>
+        <ReadyToStart />
+        <Footer />
       </BrowserRouter>
-      <ReadyToStart />
-      <Footer />
     </MyContext.Provider>
   );
 }

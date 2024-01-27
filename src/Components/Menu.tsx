@@ -4,7 +4,7 @@ export default function Menu() {
   const context = useUserContext();
   const button = ["Pricing", "About", "Contact", "Schedule a Demo"];
   return (
-    <div className=" flex flex-col items-center justify-center">
+    <div className=" flex flex-col items-center justify-center md:hidden">
       <div
         className={` ${
           context.menu ? "flex" : "hidden"
