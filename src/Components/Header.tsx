@@ -13,16 +13,18 @@ export default function Header() {
         <div className="flex w-[375px] flex-row items-center justify-between gap-16">
           {" "}
           <img src="./assets/shared/desktop/logo.svg" alt="" />
-          <img
-            className=" z-50 md:hidden"
-            onClick={() => context.setMenu(!context.menu)}
-            src={` ${
-              context.menu
-                ? " ./assets/shared/mobile/close.svg"
-                : "./assets/shared/mobile/menu.svg"
-            }  `}
-            alt=""
-          />
+          <Link to={"/"}>
+            <img
+              className=" z-50 md:hidden"
+              onClick={() => context.setMenu(!context.menu)}
+              src={` ${
+                context.menu
+                  ? " ./assets/shared/mobile/close.svg"
+                  : "./assets/shared/mobile/menu.svg"
+              }  `}
+              alt=""
+            />
+          </Link>
           <div className=" hidden md:flex text-[15px] font-bold text-[#36536B] opacity-70  flex-row items-center justify-between gap-10">
             <Link to={"/pricing"}>Pricing</Link>
 
